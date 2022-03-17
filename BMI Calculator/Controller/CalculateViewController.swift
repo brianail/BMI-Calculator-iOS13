@@ -37,7 +37,6 @@ class CalculateViewController: UIViewController {
         
         calculatorBrain.calculateBMI(height: height, weight: weight)
         performSegue(withIdentifier: "goToResult", sender: self)
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
